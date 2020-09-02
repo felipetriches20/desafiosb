@@ -12,6 +12,11 @@ body{
     font-family: "Play", sans-serif;
     font-size: 16px;
 }
+.admin__wrapper{
+    display: flex;
+    flex-direction: column; /* eixo */
+    height: 100%;
+}
 
 .header__main{
     background-color:white;
@@ -27,3 +32,26 @@ body{
     font-size: 2.0rem;
     color: blue;
 }
+.logo{
+    width: 100%;
+    padding: 1rem;
+    }
+.like-button{
+   background: #004766;
+   color: white;
+   font-size: 1.4rem;
+   padding: 1.2rem;
+   border: 0;
+   text-align: center;
+   width: 100%;
+    }
+.vezes-Click{
+    background:#8c7764;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.7rem;
+    text-align: center;
+    padding: 1rem;
+    }
+    
