@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 1rem;
+}
+.btn{
+    background-color: transparent ;
+    font-size: 1.2rem;
+    border: none;
+    margin: 0.4rem 0;
+    padding: 1rem;
+    width: 100%;
+
+}
+.btn__primary{
+    background-color:#004c66;
+    color: white;
+
+}
+
+.page__title{
+    border-bottom: 2px solid blue;
+    color:blue;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+.cat-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.cat-box:last-of-type{
+    margin-bottom: 0;
+}
+
+.cat-box .cat-box__photo img{
+    width: 100%;
+}
+.cat-box .cat-box__like-count{
+    background-color: #8b7665;
+    color: white;
+    padding: 0.4rem;
+    text-align: center;
+}
+
